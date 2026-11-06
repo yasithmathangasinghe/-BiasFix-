@@ -1,0 +1,93 @@
+# Instructions for Using the BiasFix App
+
+## Overview
+
+The BiasFix app is designed to standardise scores to adjust for examiner bias, particularly useful in oral examinations. This app helps mitigate bias by normalising scores across different examiners. It provides functionalities to download formatted templates, upload data, visualise original and retransformed scores, and analyse data using linear mixed effects models.
+
+---
+
+## Detailed Instructions
+
+### 1. Downloading Templates and Sample Data
+
+**1.1. Download Formatted Templates**
+
+- **CSV Template:** Click on "Formatted .csv Template" to download a CSV file with the correct format for your data.
+- **XLS Template:** Click on "Formatted .xls Template" to download an XLS file, which is the Microsoft Excel 1997-2004 workbook format.
+- **XLSX Template:** Click on "Formatted .xlsx Template" to download an XLSX file, which is the Microsoft Excel 2007 and later workbook format.
+
+You only need to download one of these templates (CSV, XLS, or XLSX) based on your preference. The templates include columns: `Student_ID`, `Examiner`, and `Score`.
+
+**1.2. Download Sample Dataset**
+
+Click on "Sample Dataset" to download a CSV file with example data. This dataset is provided for you to explore and understand the format but is not required for your analysis.
+
+---
+
+### 2. Preparing and Uploading Data
+
+**2.1. Format Your Data**
+
+Ensure your data file (CSV, XLS, or XLSX) includes columns labelled `Student_ID`, `Examiner`, and `Score`.
+
+**2.2. Upload Your Data**
+
+- Go to the "Standardisation" tab.
+- Click the "Upload CSV/XLS/XLSX File" button to select and upload your file.
+- The app will automatically read and process the data.
+
+**2.3. Input Total Score**
+
+Enter the maximum possible score in the "Input Total Score" field. This helps in scaling the scores accurately.
+
+---
+
+### 3. Viewing and Downloading Results
+
+**3.1. Visualisations**
+
+- **Original Boxplot:** Displays the distribution of raw scores by examiner. You can download this plot using the "Download Original Boxplot" button.
+- **Retransformed Boxplot:** Shows the adjusted scores after standardisation. Download this using the "Download Retransformed Boxplot" button.
+- **Histograms:** View the distribution of raw and retransformed scores. Downloadable histograms are not provided but can be visualised on the app.
+
+**3.2. Summary Statistics**
+
+Summary statistics of the retransformed scores are available. Download these statistics using the "Download Summary Statistics" button.
+
+**3.3. Modified Data**
+
+Download the data with adjusted scores by clicking on "Download Modified Data". Use the `Retransformed_Score` column as the final standardised score.
+
+---
+
+### 4. Linear Mixed Effects Model
+
+**4.1. Model Results**
+
+The app fits a linear mixed effects model to account for variability between examiners. The results are displayed in the "Linear Mixed Effects Model" tab. Download the model results using the "Download Model Results" button.
+
+**4.2. Random Intercepts**
+
+View and download the random intercepts for each examiner, which reflect how each examiner’s scores deviate from the overall mean score. Use the "Download Random Intercepts" button to save this data.
+
+**Note:** Understanding the linear mixed effects model analysis is optional.
+
+---
+
+### 5. Recommendations
+
+- **Number of Students:** Ideally, a single examiner should assess 30 students or more to ensure reliable results.
+
+---
+
+### Troubleshooting
+
+- **Invalid File Format:** Ensure your file is in CSV, XLS, or XLSX format. The app does not support other formats.
+- **Data Issues:** Make sure all columns are correctly labelled and no data is missing.
+
+For additional help, please contact us at: yasith.mathangasinghe1@monash.edu
+
+For more information, consult the "About" tab or contact support if issues arise.
+
+---
+

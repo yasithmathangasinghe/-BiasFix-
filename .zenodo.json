@@ -1,0 +1,17 @@
+{
+  "title": "BiasFix: adjusting assessment marks for assessor leniency",
+  "upload_type": "software",
+  "description": "BiasFix is a free R Shiny application and R function that adjusts marks from rater-based assessments (for example viva voce examinations and OSCEs) for assessor leniency by placing each assessor's marks on the scale of the whole cohort (mean-sigma linear equating). The repository also contains the analysis code for the accompanying article in Anatomical Sciences Education.",
+  "creators": [
+    {"name": "Mathangasinghe, Yasith", "affiliation": "Monash University"},
+    {"name": "Fox, Benjamin", "affiliation": "Monash University"},
+    {"name": "Mayhew, Jack", "affiliation": "Monash University"},
+    {"name": "Hoppe, Chantal", "affiliation": "Monash University"},
+    {"name": "Ediriweera, Dileepa S.", "affiliation": "University of Kelaniya"},
+    {"name": "Stephens, Georgina C.", "affiliation": "Monash University"},
+    {"name": "Gonsalvez, David G.", "affiliation": "Monash University; The University of Melbourne"}
+  ],
+  "license": "MIT",
+  "keywords": ["assessment", "viva voce", "oral examination", "OSCE", "examiner variability", "assessor leniency", "score equating", "R Shiny"],
+  "access_right": "open"
+}
