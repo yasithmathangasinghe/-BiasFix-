@@ -68,7 +68,7 @@ adj <- biasfix(d, max_score = 100)     # Retransformed_Score = adjusted mark
 Please cite the article above and the archived software (see `CITATION.cff`):
 
 > Mathangasinghe Y, et al. BiasFix: adjusting assessment marks for assessor leniency (version 1.0.0)
-> [software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> [software]. Zenodo. https://doi.org/10.5281/zenodo.24003229
 
 ## Licence
 
