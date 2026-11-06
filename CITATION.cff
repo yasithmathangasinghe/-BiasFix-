@@ -4,25 +4,10 @@ title: "BiasFix: adjusting assessment marks for assessor leniency"
 version: 1.0.0
 date-released: 2026-11-06
 license: MIT
-repository-code: "https://github.com/GITHUB-ACCOUNT/BiasFix"
+repository-code: "https://github.com/yasithmathangasinghe/-BiasFix-"
 authors:
   - family-names: Mathangasinghe
     given-names: Yasith
-    affiliation: "Monash University"
-  - family-names: Fox
-    given-names: Benjamin
-    affiliation: "Monash University"
-  - family-names: Mayhew
-    given-names: Jack
-    affiliation: "Monash University"
-  - family-names: Hoppe
-    given-names: Chantal
-    affiliation: "Monash University"
-  - family-names: Ediriweera
-    given-names: Dileepa S.
-    affiliation: "University of Kelaniya"
-  - family-names: Stephens
-    given-names: Georgina C.
     affiliation: "Monash University"
   - family-names: Gonsalvez
     given-names: David G.
